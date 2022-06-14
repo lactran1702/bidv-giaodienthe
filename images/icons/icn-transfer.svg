@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 38</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="07.-DigitalBanking" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="0700_SmartBanking_VER.3" transform="translate(-514.000000, -1720.000000)" stroke-width="2">
+            <g id="Group-37" transform="translate(495.000000, 1701.000000)">
+                <g id="Group-38" transform="translate(20.000000, 20.000000)">
+                    <g id="Group-24">
+                        <g id="Group-18" transform="translate(0.937500, 0.937500)">
+                            <g id="Group-6" transform="translate(9.677419, 6.437212)" stroke="#ED1D24">
+                                <path d="M0,10.2822581 L0,10.2822581 C0,11.9528226 1.52283266,13.3064516 3.40221774,13.3064516 L4.76310484,13.3064516 C6.64248992,13.3064516 8.16532258,11.9528226 8.16532258,10.2822581 C8.16532258,6.0483871 0,8.46774194 0,4.23387097 C0,2.56330645 1.52283266,1.20967742 3.40221774,1.20967742 L4.76310484,1.20967742 C6.64248992,1.20967742 8.16532258,2.56330645 8.16532258,4.23387097" id="Stroke-852"></path>
+                                <path d="M4.08266129,0 L4.08266129,14.516129" id="Stroke-853"></path>
+                            </g>
+                            <g id="Group-2" stroke="#21409A">
+                                <path d="M0,13.8248848 C0,6.22119816 6.22119816,0 13.8248848,0 C19.2165899,0 23.9170507,3.04147465 26.1290323,7.60368664" id="Stroke-5"></path>
+                                <path d="M27.6497696,13.8248848 C27.6497696,21.4285714 21.4285714,27.6497696 13.8248848,27.6497696 C8.43317972,27.6497696 3.73271889,24.6082949 1.52073733,20.0460829" id="Stroke-7"></path>
+                                <polyline id="Stroke-9" points="27.4627016 4.26666344 26.9002016 8.41425369 22.6814516 7.85186857"></polyline>
+                                <polyline id="Stroke-11" points="0 23.5032762 0.562499998 19.3548387 4.78124998 19.9173387"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

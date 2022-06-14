@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#345DD4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.333 23v-6H22"/>
+        <path stroke="#345DD4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.333 23H2V1h20v16z"/>
+        <text fill="#345DD4" font-family="Muli-ExtraBold, Muli" font-size="6" font-weight="600" transform="translate(2 1)">
+            <tspan x="4.333" y="11">PDF</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,91 @@
+#bidv-brand-info .params-info .col-sm-3.button-bottom {
+    min-height: 137px;
+    position: relative;
+}
+#bidv-brand-info .params-info .col-sm-3.button-bottom .btn {
+    position: absolute;
+    bottom: 0;
+}
+
+.bg-grey {
+    background-color: #f7f9fb;
+}
+
+.news-list .news-list-items.box-shadow .thumbnail {
+    padding: 10px 10px 15px;
+    border: 4px solid transparent;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+    .news-list .news-list-items.box-shadow .thumbnail:hover, .news-list .news-list-items.box-shadow .thumbnail:active {
+        border-right: 4px solid #21409a;
+        border-bottom: 4px solid #21409a
+    }
+
+.news-list .news-list-items.box-shadow .thumbnail .caption .title-2{
+    font-weight:bold;
+    margin-bottom:13px;
+}
+    .news-list .news-list-items.box-shadow .thumbnail .caption .title-2:after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 23px;
+        background-color: #21409a;
+        margin-top:5px;
+    }
+
+.mb-10{
+    margin-bottom:10px !important;
+}
+.mb-0{
+    margin-bottom:0 !important;
+}
+.thumbnail .caption .link-view-more{
+    margin-top:15px;
+}
+
+.newsletter-wrap.newsletter-news{
+    margin-top:0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1150px) {
+    .anchor-link .anchor-url-list, .anchor-link.is-sticky .anchor-url-list {
+        line-height: 40px;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .anchor-link.is-sticky .anchor-url-list {
+        top: 51px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1149px) {
+    .anchor-link.is-sticky .anchor-url-list {
+        top: 71px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    #bidv-brand-info .params-info .col-sm-3.button-bottom {
+        min-height: 118px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #bidv-brand-info .params-info .col-sm-3.button-bottom {
+        min-height: unset;
+        width: 100% !important;
+        text-align: left;
+    }
+    #bidv-brand-info .params-info .col-sm-3.button-bottom .btn {
+        position: relative;
+    }
+    .news-list-items.box-shadow .thumbnail .caption .link-view-more {
+        display: table
+    }
+    .newsletter-wrap.newsletter-news{
+        margin-top:20px
+    }
+}

@@ -1,0 +1,200 @@
+.history-tabs {
+    max-width: 1180px;
+    text-align: center;
+} 
+.history-tabs li.history-tab {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c2e36;
+    display: inline-block;
+    margin-left: 72px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.history-tabs li.history-tab:first-child {
+    margin-left: 0;
+}
+
+.history-tabs li.history-tab.active {
+    border-bottom: 4px solid #345dd4;
+}
+
+.history-tree.hidden-list {
+    height: 0px;
+    overflow: hidden; 
+    margin-top: 0;
+}
+
+.history-tabs hr {
+    margin: -3px 0 0 0;
+    border-top: 2px solid #e0e0e0;
+}
+
+.dropdown-history {
+    display: none;
+}
+
+.dropdown-history .dropdown-history-group .dropdown-history-selection {
+    position: relative;
+    margin-top: 24px; 
+    text-align: center;
+}
+.dropdown-history .dropdown-history-group .dropdown-history-selection-field {
+    display: none;
+    border: 1px solid #e0e0e0;
+    z-index: 5;
+    max-height: 250px;
+    position: relative;
+    margin-top: 5px;
+    border-radius: 3px;
+    width: 100%;
+}
+.dropdown-history .dropdown-history-group .dropdown-history-selection-field li {
+    line-height: 1.43;
+    padding: 10px;
+    border-bottom: 1px solid #E0E0E0;
+    cursor: pointer;
+    background: #fff
+}
+.dropdown-history .dropdown-history-group .dropdown-history-selection-field li:last-child {
+    border-bottom: 0;
+}
+
+.dropdown-history .dropdown-history-group .dropdown-history-selection-field li.active {
+    display: none;
+}
+.dropdown-history .dropdown-history-group p {
+    line-height: 1.43;
+    margin-bottom: 10px;
+}
+.dropdown-history .dropdown-history-group .history-item-selected {
+    display: block;
+    padding: 14px 30px 14px 15px;
+    position: relative;
+    font-weight: 600;
+    line-height: 1.43;
+    cursor: pointer;
+    background-color: #FFF;
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+.dropdown-history .dropdown-history-group .history-item-selected:before {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -5px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-bottom: solid 2px #9e9e9e;
+    border-right: solid 2px #9e9e9e;
+    width: 8px;
+    height: 8px;
+}
+.dropdown-history .dropdown-history-group .history-item-selected.dropdown:before {
+    border-bottom: 0;
+    border-right: 0;
+    margin-top: -2px;
+    border-top: solid 2px #9e9e9e;
+    border-left: solid 2px #9e9e9e;
+}
+
+.history-tree.hidden-list .sync-pointers {
+	display: none;
+}
+
+.bidv-about-awards .history-tree .section-group {
+    max-width: 100% !important;
+}
+
+
+.history-tree .section-group .item-list .item-detail {
+    margin-bottom: 28px;
+}
+.history-tree .section-group .item-list .logo-item {
+    position: relative;
+    background: #f5f5f5;
+    max-width: 159px;
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    margin-left: 20px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.history-tree .section-group .item-list .logo-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.history-tree .caption {
+    margin-bottom: 28px;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 0 !important;
+}
+.history-tree .caption p {
+    margin-bottom: 0;
+}
+.history-tree .caption p.p-header {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    color: #1c2e36;
+    margin-bottom: 15px !important;
+}
+
+@media screen and (max-width:1150px) {
+    .history-tree .section-group .item-list .logo-item {
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width:955px) {
+    .dropdown-history {
+        width: 100%;
+        display: block;
+    }
+    .history-tabs {
+        display: none;
+    }
+    .bidv-about-awards .banner.main-banner .item.tablet-bp-70 {
+        background-position-x: 70%;
+    }
+}
+@media screen and (max-width:895px) {
+    .history-tree .section-group .item-list .logo-item {
+        display: block;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:768px) {
+    .history-tree .section-group .item-list .logo-item {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:601px) {
+    .history-tree .section-group .item-list .logo-item {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 159px;
+    }
+}
+@media screen and (max-width:440px) { 
+    .bidv-about-awards .banner.main-banner {
+        background-position-x: center;
+    }
+}

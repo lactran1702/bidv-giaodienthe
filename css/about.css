@@ -1,0 +1,43 @@
+#bidv-brand-info .params-info .col-sm-3.button-bottom {
+    min-height: 137px;
+    position: relative;
+}
+#bidv-brand-info .params-info .col-sm-3.button-bottom .btn {
+    position: absolute;
+    bottom: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1150px) {
+    .anchor-link .anchor-url-list, .anchor-link.is-sticky .anchor-url-list {
+        line-height: 40px;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .anchor-link.is-sticky .anchor-url-list {
+        top: 51px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1149px) {
+    .anchor-link.is-sticky .anchor-url-list {
+        top: 71px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    #bidv-brand-info .params-info .col-sm-3.button-bottom {
+        min-height: 118px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #bidv-brand-info .params-info .col-sm-3.button-bottom {
+        min-height: unset;
+        width: 100% !important;
+        text-align: left;
+    }
+    #bidv-brand-info .params-info .col-sm-3.button-bottom .btn {
+        position: relative;
+    }
+}

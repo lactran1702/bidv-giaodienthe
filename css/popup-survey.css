@@ -1,0 +1,123 @@
+.popup-bottom {
+	position: fixed;
+	bottom: -250px;
+	background-image: url('../images/popup-survey-background.png');
+	width: 80%;
+	max-width: 705px;
+	height: 95px;
+	left: 50%;
+    transform: translateX(-50%);
+    z-index: 998;
+    border: 1px solid #e0e0e0;
+	border-radius: 10px;
+	text-align: center;
+    -webkit-transition: opacity 1s ease-out, bottom 1s ease-out;
+    -moz-transition: opacity 1s ease-out, bottom 1s ease-out;
+    -o-transition: opacity 1s ease-out, bottom 1s ease-out;
+    transition: opacity 1s ease-out, bottom 1s ease-out;
+    
+}
+.popup-bottom.in {
+    bottom: 3px;
+    -webkit-transition: opacity 0.5s ease-out, bottom 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out, bottom 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out, bottom 0.5s ease-out;
+    transition: opacity 0.5s ease-out, bottom 0.5s ease-out;
+}
+.popup-bottom .content {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 0 30px;
+	width: 100%;
+}
+.popup-bottom .content p {
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: center;
+	color: #1c2e36;
+}
+
+.popup-bottom .content a {
+	color: #21409a;
+}
+.popup-bottom .content .button {
+	line-height: 30px;
+}
+.popup-bottom .content .button a {
+	color: inherit;
+}
+.close {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	width: 12px;
+	height: 12px;
+	background-image: url('../images/close.png');
+	background-size: contain;
+    cursor: pointer;
+    z-index: 999;
+}
+@media screen and (max-width: 767px) { 
+	.popup-bottom {
+		left: unset;
+		transform: none;
+		right: 68px;
+		width: calc(100% - 72px);
+	}
+	.popup-bottom .content{ 
+		display: table;
+		border-spacing: 10px;
+		padding: 0 10px;
+	}
+		
+	.popup-bottom .content p.caption{ 
+		text-align: justify;
+		display: table-cell;
+		width: 70%;
+		vertical-align: middle;
+		line-height: 1.2;
+	}
+	.popup-bottom .content .button{ 
+		display: table-cell;
+		width: 25%;
+		vertical-align: middle;
+	}
+	.close {
+		top: 8px;
+		right: 8px;
+	}
+}
+
+@media screen and (max-width: 480px) { 
+	.popup-bottom .content {
+		padding: 0 10px;
+		border-spacing: 5px;
+	}
+	.popup-bottom .content p.caption{ 
+		width: 75%;
+	}
+	.popup-bottom .content .button.btn.btn-blue{ 
+		line-height: 1;
+		width: 25%;
+		padding: 0;
+	}
+	.close { 
+		top: 8px;
+		right: 8px;
+		width: 8px;
+		height: 8px;
+	}
+}
+
+@media screen and (max-width: 384px) { 
+	.popup-bottom .content p.caption{ 
+		font-size: 12px;
+	}
+	.popup-bottom .content .button.btn.btn-blue{ 
+		font-size: 12px;
+	}
+}

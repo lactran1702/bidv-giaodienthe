@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="24px" viewBox="0 0 16 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="07.-DigitalBanking" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="100_DigitalBanking" transform="translate(-164.000000, -752.000000)" stroke-width="2" stroke="#FFFFFF">
+            <g id="Group-22" transform="translate(160.000000, 752.000000)">
+                <g id="Group-10" transform="translate(5.000000, 1.000000)">
+                    <g id="Group-9">
+                        <g id="Group">
+                            <path d="M12,22 L2,22 C0.895,22 0,21.105 0,20 L0,2 C0,0.895 0.895,0 2,0 L12,0 C13.105,0 14,0.895 14,2 L14,20 C14,21.105 13.105,22 12,22 L12,22 Z" id="Stroke-4563"></path>
+                            <path d="M6,18 C6,17.448 6.448,17 7,17 C7.552,17 8,17.448 8,18 C8,18.552 7.552,19 7,19 C6.448,19 6,18.552 6,18 L6,18 Z" id="Stroke-4564"></path>
+                            <path d="M0,5 L14,5" id="Stroke-4565"></path>
+                            <path d="M0,14 L14,14" id="Stroke-4566"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+.news-detail-container .published-info .share-info .sp-share-button { 
+    display: none !important;
+}
+@media only screen and (max-width: 767px) {
+    .news-detail-container .published-info .share-info {
+        margin: 15px 0;
+        display: block  !important;
+    }
+  
+    .news-detail-container .published-info .share-info .desktop-share-button { 
+        display: none !important;
+    }
+  
+    .news-detail-container .published-info .share-info .sp-share-button { 
+        display: block  !important;
+    }
+}

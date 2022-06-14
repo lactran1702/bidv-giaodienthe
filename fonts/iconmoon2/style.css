@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?yu5sth');
+  src:  url('fonts/icomoon.eot?yu5sth#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?yu5sth') format('truetype'),
+    url('fonts/icomoon.woff?yu5sth') format('woff'),
+    url('fonts/icomoon.svg?yu5sth#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icm2-"], [class*=" icm2-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icm2-icn-calender:before {
+  content: "\e907";
+  color: #999;
+}
+.icm2-icon-user-login:before {
+  content: "\e922";
+}
+.icm2-homepage-copy-2:before {
+  content: "\e900";
+  color: #345dd4;
+}
+.icm2-chuyen-gia:before {
+  content: "\e901";
+}
+.icm2-group-7:before {
+  content: "\e902";
+}
+.icm2-icn-accordion-close .path1:before {
+  content: "\e903";
+  color: rgb(33, 64, 154);
+}
+.icm2-icn-accordion-close .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icm2-icn-accordion-open .path1:before {
+  content: "\e905";
+  color: rgb(196, 225, 247);
+}
+.icm2-icn-accordion-open .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(20, 38, 91);
+}
+.icm2-icn-chinh-sach-tuyen-dung:before {
+  content: "\e908";
+  color: #21409a;
+}
+.icm2-icn-chuyen-gia:before {
+  content: "\e909";
+}
+.icm2-icn-close .path1:before {
+  content: "\e90a";
+  color: rgb(158, 158, 158);
+}
+.icm2-icn-close .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(158, 158, 158);
+}
+.icm2-icn-close .path3:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icm2-icn-download-grey:before {
+  content: "\e90d";
+  color: #9e9e9e;
+}
+.icm2-icn-dropdown-1:before {
+  content: "\e90e";
+}
+.icm2-icn-email:before {
+  content: "\e90f";
+  color: #9e9e9e;
+}
+.icm2-icn-error .path1:before {
+  content: "\e910";
+  color: rgb(255, 200, 0);
+}
+.icm2-icn-error .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icm2-icn-error .path3:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icm2-icn-facebook:before {
+  content: "\e913";
+  color: #3b5998;
+}
+.icm2-icn-facebook_2:before {
+  content: "\e914";
+  color: #fff;
+}
+.icm2-icn-ho-so-truc-tuyen:before {
+  content: "\e915";
+}
+.icm2-icn-icn-download:before {
+  content: "\e916";
+  color: #345dd4;
+}
+.icm2-icn-linked-in:before {
+  content: "\e917";
+  color: #0077b5;
+}
+.icm2-icn-linked-in_2:before {
+  content: "\e918";
+  color: #fff;
+}
+.icm2-icn-log-out:before {
+  content: "\e919";
+}
+.icm2-icn-moi-truong-lam-viec:before {
+  content: "\e91a";
+  color: #21409a;
+}
+.icm2-icn-more:before {
+  content: "\e91b";
+}
+.icm2-icn-more-2:before {
+  content: "\e91c";
+  color: #9e9e9e;
+}
+.icm2-icn-nguoi-kinh-nghiem:before {
+  content: "\e91d";
+}
+.icm2-icn-password:before {
+  content: "\e91e";
+  color: #9e9e9e;
+}
+.icm2-icn-pdf-blue:before {
+  content: "\e91f";
+  color: #345dd4;
+}
+.icm2-icn-pdf-grey:before {
+  content: "\e920";
+  color: #9e9e9e;
+}
+.icm2-icn-personal-infor:before {
+  content: "\e921";
+}
+.icm2-icn-quan-ly-ca-nhan:before {
+  content: "\e923";
+}
+.icm2-icn-quan-ly-cao-cap:before {
+  content: "\e924";
+  color: #21409a;
+}
+.icm2-icn-quan-ly-ho-so:before {
+  content: "\e925";
+  color: #21409a;
+}
+.icm2-icn-quan-ly-so-cap:before {
+  content: "\e926";
+  color: #21409a;
+}
+.icm2-icn-quan-ly-trung-cap:before {
+  content: "\e927";
+  color: #21409a;
+}
+.icm2-icn-search:before {
+  content: "\e928";
+}
+.icm2-icn-sinh-vien:before {
+  content: "\e929";
+}
+.icm2-icn-success .path1:before {
+  content: "\e92a";
+  color: rgb(36, 191, 127);
+}
+.icm2-icn-success .path2:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icm2-icn-success .path3:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icm2-icn-thuc-tap:before {
+  content: "\e92d";
+}
+.icm2-icn-tin-tuyen-dung:before {
+  content: "\e92e";
+  color: #21409a;
+}
+.icm2-icn-youtube:before {
+  content: "\e92f";
+  color: #fff;
+}
+.icm2-icon-username:before {
+  content: "\e930";
+}
+.icm2-kinh-nghiem:before {
+  content: "\e931";
+}
+.icm2-thuc-tap:before {
+  content: "\e932";
+}
+.icm2-tot-nghiep:before {
+  content: "\e933";
+}

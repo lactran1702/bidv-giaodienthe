@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Comp/114_Uudaivang" transform="translate(-10.000000, -10.000000)" fill="#FFFFFF">
+            <g id="Group">
+                <g id="Bitmap">
+                    <g id="Group-12" transform="translate(10.000000, 10.000000)">
+                        <path d="M4,0 L96,0 C98.209139,-4.05812251e-16 100,1.790861 100,4 L100,82.9913242 C100,84.7732116 98.821335,86.3402332 97.109346,86.8344156 L52.5769643,99.6891237 C51.8725562,99.892458 51.1258125,99.8982791 50.4183201,99.7059511 L2.95070169,86.8021325 C1.20888899,86.32863 2.8855871e-15,84.7472389 2.66453526e-15,82.9422137 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

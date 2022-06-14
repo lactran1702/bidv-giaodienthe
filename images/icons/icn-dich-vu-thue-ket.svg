@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="08.-Treasury" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="100_Treasury_Services" transform="translate(-759.000000, -753.000000)" stroke="#212121" stroke-width="2">
+            <g id="Group-27" transform="translate(729.000000, 728.000000)">
+                <g id="Icon" transform="translate(30.000000, 24.000000)">
+                    <g id="Group-13">
+                        <g id="Group-3">
+                            <g id="Group">
+                                <g id="Group-14" transform="translate(1.000000, 2.000000)">
+                                    <polygon id="Stroke-920" points="22 18 0 18 0 0 22 0"></polygon>
+                                    <path d="M4,18 L4,20" id="Line-3"></path>
+                                    <path d="M18,18 L18,20" id="Line-3-Copy"></path>
+                                    <path d="M9.2867,7.2867 L6.7587,4.7587" id="Stroke-921"></path>
+                                    <path d="M15.2426,13.2426 L12.6866,10.6866" id="Stroke-922"></path>
+                                    <path d="M12.7036,7.2974 L15.2426,4.7584" id="Stroke-923"></path>
+                                    <path d="M6.7583,13.2426 L9.2893,10.7116" id="Stroke-924"></path>
+                                    <path d="M5,9 C5,5.686 7.686,3 11,3 C14.314,3 17,5.686 17,9 C17,12.314 14.314,15 11,15 C7.686,15 5,12.314 5,9 L5,9 Z" id="Stroke-925"></path>
+                                    <path d="M8.6,9 C8.6,7.675 9.675,6.6 11,6.6 C12.325,6.6 13.4,7.675 13.4,9 C13.4,10.325 12.325,11.4 11,11.4 C9.675,11.4 8.6,10.325 8.6,9 L8.6,9 Z" id="Stroke-926"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
