@@ -2,3 +2,4 @@
 .vs/bidv/v16/.suo
 .vs/bidv/config/applicationhost.config
 .vs/VSWorkspaceState.json
+node_modules/
