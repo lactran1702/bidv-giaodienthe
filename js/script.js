@@ -26743,6 +26743,12 @@ BIDV = (function(w) {
             }
         }
     }
+
+    var highEndCustomer = function() {
+        $('.js-highEnd').on('click', function() {
+            console.log('clicked');
+        })
+    }
     return {
         init: init,
         scrollbar: scrollbar,
@@ -26768,6 +26774,7 @@ BIDV = (function(w) {
         tableReponsive: tableReponsive,
         supportBlock: supportBlock,
         filByYear: filByYear,
+        highEndCustomer: highEndCustomer,
     }
 })(window);
 
@@ -26797,6 +26804,7 @@ $(document).ready(function() {
     BIDV.tableReport();
     BIDV.tableReponsive();
     BIDV.supportBlock();
+    BIDV.highEndCustomer();
     if ($("#filter-financial-reports").length) {
         BIDV.filByYear();
     }
@@ -27209,5 +27217,10 @@ $(document).ready(function() {
             }
         });
     });
+    // $(document).ready(function(){
+    //     $('.js-highEnd').on('click', function() {
+    //         console.log('clicked');
+    //     })
+    // });
     // End added part
 })(window);
