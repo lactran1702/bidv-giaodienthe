@@ -26744,11 +26744,47 @@ BIDV = (function(w) {
         }
     }
 
-    var highEndCustomer = function() {
-        $('.js-highEnd').on('click', function() {
-            console.log('clicked');
-        })
-    }
+
+  var highEndCustomer = function () {
+    $(".js-highEnd").on("click", function () {
+      $("#HighEnd").fadeIn(function () {
+        $("#HighEnd .highEndCustomer").addClass("isShow");
+      });
+    });
+
+    $(window).scroll(function () {
+      if ($(window).width() < 992) {
+        _stickyPos = 0;
+        if ($(this).scrollTop() > _stickyPos) {
+          $("#HighEnd .highEndCustomer").addClass("isScroll");
+        } else {
+          $("#HighEnd .highEndCustomer").removeClass("isScroll");
+        }
+      } else {
+        if ($(this).scrollTop() > 125 && $(this).scrollTop() < _stickyPos) {
+          $("#HighEnd .highEndCustomer").removeClass("isScroll");
+        } else if ($(this).scrollTop() > _stickyPos) {
+          $("#HighEnd .highEndCustomer").addClass("isScroll");
+        } else {
+          $("#HighEnd .highEndCustomer").removeClass("isScroll");
+        }
+      }
+    });
+  };
+
+  var hideHighEnd = function () {
+    $("#HighEnd .highEndCustomer__overlay").on("click", function (e) {
+      e.preventDefault();
+      $("#HighEnd").fadeOut();
+      $("#HighEnd .highEndCustomer").removeClass("isShow");
+    });
+
+    $(".main-header").mouseover(function () {
+      $("#HighEnd").fadeOut();
+      $("#HighEnd .highEndCustomer").removeClass("isShow");
+    });
+  };
+
     return {
         init: init,
         scrollbar: scrollbar,
@@ -26775,6 +26811,7 @@ BIDV = (function(w) {
         supportBlock: supportBlock,
         filByYear: filByYear,
         highEndCustomer: highEndCustomer,
+        hideHighEnd: hideHighEnd,
     }
 })(window);
 
@@ -26805,6 +26842,7 @@ $(document).ready(function() {
     BIDV.tableReponsive();
     BIDV.supportBlock();
     BIDV.highEndCustomer();
+    BIDV.hideHighEnd();
     if ($("#filter-financial-reports").length) {
         BIDV.filByYear();
     }
@@ -27217,10 +27255,4 @@ $(document).ready(function() {
             }
         });
     });
-    // $(document).ready(function(){
-    //     $('.js-highEnd').on('click', function() {
-    //         console.log('clicked');
-    //     })
-    // });
-    // End added part
 })(window);

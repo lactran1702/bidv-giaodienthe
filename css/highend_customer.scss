@@ -3,16 +3,33 @@
 }
 
 #HighEnd {
+  display: none;
+
   .highEndCustomer {
-    // position: absolute;
     position: fixed;
     top: 0;
-    // top: 130px;
     left: 0;
     width: 100%;
     height: 100vh;
     z-index: 1;
-    // display: none;
+    transform: translate3d(0, -50px, 0);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+
+    &.isShow {
+      opacity: 1;
+      visibility: visible;
+      transform: translate3d(0, 0, 0);
+      transition: all 0.3s ease;
+    }
+
+    &.isScroll {
+      .highEndCustomer__wrap {
+        margin-top: 70px;
+        transition: all 0.3s ease;
+      }
+    }
 
     &__overlay {
       position: absolute;
@@ -20,7 +37,8 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: transparentize($color: #000000, $amount: 0.6);
+      // background-color: transparentize($color: #000000, $amount: 0.2);
+      background-color: transparent;
       z-index: 1;
       cursor: auto;
     }
@@ -30,14 +48,15 @@
       max-width: 1300px;
       width: 100%;
       margin: 0 auto;
-      padding-top: 130px;
+      margin-top: 140px;
       position: relative;
       z-index: 2;
-      height: 100vh;
-      max-height: 750px;
-      // box-shadow: 0 0 10px rgb(0 0 0 / 10%);
-      // box-shadow: 0 0 10px rgb(0 0 0 / 10%);
-      border-radius: 4px;
+      height: 70vh;
+      max-height: 610px;
+      border-radius: 14px;
+      box-shadow: 0 2px 6px 0 rgba($color: #000000, $alpha: 0.4);
+      overflow: hidden;
+      transition: all 0.3s ease;
     }
 
     &__item {
@@ -48,23 +67,26 @@
       justify-content: flex-end;
       padding: 0 0 50px 50px;
       position: relative;
+      transition: all 0.3s ease;
       z-index: 1;
 
       &::before {
         content: "";
         position: absolute;
-        // display: block;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: transparentize($color: #000000, $amount: 0.8);
+        background-color: transparentize($color: #000000, $amount: 0.4);
         opacity: 1;
         transition: all 0.3s ease;
         z-index: 1;
       }
 
       &:hover {
+        width: 60%;
+        transition: all 0.3s ease;
+
         &::before {
           opacity: 0;
           transition: all 0.3s ease;
@@ -75,6 +97,16 @@
           transition: all 0.3s ease;
         }
       }
+
+      &--premier {
+        background: url("../images/logo/bg-premier.jpg") no-repeat center /
+          cover;
+      }
+
+      &--private {
+        background: url("../images/logo/bg-private-banking.jpg") no-repeat
+          center / cover;
+      }
     }
 
     &__content {
@@ -83,17 +115,101 @@
     }
 
     &__logo {
-      margin-bottom: 20px;
-      width: 100px;
-      height: 100px;
-      background-color: #ddd;
+      margin-bottom: 10px;
+      width: 120px;
       transform: scale(1);
+      transform-origin: bottom left;
       transition: all 0.3s ease;
     }
     &__title {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
+      color: #fff;
+      font-size: 24px;
     }
     &__button {
+      line-height: 40px;
+      border-radius: 5px;
+      padding: 0 20px;
+      color: #00453c;
+      display: inline-block;
+      font-family: "Mulish-Bold";
+      transition: all 0.3s;
+      position: relative;
+      overflow: hidden;
+
+      &Background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s;
+        background: rgba(159, 119, 46, 1);
+        background: -moz-linear-gradient(
+          -45deg,
+          rgba(159, 119, 46, 1) 0%,
+          rgba(242, 193, 95, 1) 39%,
+          rgba(255, 204, 103, 1) 53%,
+          rgba(242, 193, 95, 1) 67%,
+          rgba(159, 119, 46, 1) 100%
+        );
+        background: -webkit-gradient(
+          left top,
+          right bottom,
+          color-stop(0%, rgba(159, 119, 46, 1)),
+          color-stop(39%, rgba(242, 193, 95, 1)),
+          color-stop(53%, rgba(255, 204, 103, 1)),
+          color-stop(67%, rgba(242, 193, 95, 1)),
+          color-stop(100%, rgba(159, 119, 46, 1))
+        );
+        background: -webkit-linear-gradient(
+          -45deg,
+          rgba(159, 119, 46, 1) 0%,
+          rgba(242, 193, 95, 1) 39%,
+          rgba(255, 204, 103, 1) 53%,
+          rgba(242, 193, 95, 1) 67%,
+          rgba(159, 119, 46, 1) 100%
+        );
+        background: -o-linear-gradient(
+          -45deg,
+          rgba(159, 119, 46, 1) 0%,
+          rgba(242, 193, 95, 1) 39%,
+          rgba(255, 204, 103, 1) 53%,
+          rgba(242, 193, 95, 1) 67%,
+          rgba(159, 119, 46, 1) 100%
+        );
+        background: -ms-linear-gradient(
+          -45deg,
+          rgba(159, 119, 46, 1) 0%,
+          rgba(242, 193, 95, 1) 39%,
+          rgba(255, 204, 103, 1) 53%,
+          rgba(242, 193, 95, 1) 67%,
+          rgba(159, 119, 46, 1) 100%
+        );
+        background: linear-gradient(
+          135deg,
+          rgba(159, 119, 46, 1) 0%,
+          rgba(242, 193, 95, 1) 39%,
+          rgba(255, 204, 103, 1) 53%,
+          rgba(242, 193, 95, 1) 67%,
+          rgba(159, 119, 46, 1) 100%
+        );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f772e', endColorstr='#9f772e', GradientType=1 );
+      }
+
+      span {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        transition: all 0.3s;
+      }
+      &:hover {
+        .highEndCustomer__buttonBackground {
+          opacity: 0;
+        }
+        background: #000;
+        color: #fff;
+      }
     }
   }
 }
